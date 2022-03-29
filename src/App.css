@@ -1,0 +1,10 @@
+.App {
+	text-align: center;
+}
+
+body{
+	background-image:url('./assets/background.png');
+	background-size: cover;
+	width:100vw;
+	height:100vh;
+}

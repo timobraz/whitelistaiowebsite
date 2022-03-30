@@ -11,6 +11,15 @@
     flex-direction: column;
     gap:0.8rem;
     align-items: center;
+    animation: MoveUpDown 3s infinite ease-in-out;
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
 }
 .titleText{
     color:white;
@@ -56,6 +65,11 @@
 .wllogo{
     height:18rem;
     box-shadow: 0px 5px 20px 3px rgba(0, 0, 0, 0.733);
+     transition:all 0.5s ease;
+
+}
+.wllogo:hover{
+    transform: scale(1.05,1.05) skew(1deg,-1deg);
 }
 .mediasContainer {
     display: flex; 
@@ -76,8 +90,16 @@
         1px 3px 1px #919191,
 
     1px 8px 6px rgba(16,16,16,0.4),
-    1px 7px 10px rgba(16,16,16,0.2)
+    1px 7px 10px rgba(16,16,16,0.2);
+    
 }
+
 .logo{
+   
     height:7rem;
+     transition:all 0.3s ease;
+}
+
+.logo:hover{
+    filter:brightness(70%)
 }

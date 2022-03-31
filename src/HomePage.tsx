@@ -9,7 +9,8 @@ const HomePage = (props: any) => {
           <h3 className="secondaryText">Holders Mint</h3>
         </div>
         <img src="wlgif.gif" alt="" className="wllogo" />
-        {CMTOTAL}
+        <span className="mintPaused">HOLDER MINT PAUSED</span>
+        {/* {CMTOTAL} */}
         <div className="mediasContainer">
           <div className="media">
             <a href="https://discord.gg/gcwRnFc7" className="media" target="_blank">

@@ -6,11 +6,11 @@ const HomePage = (props: any) => {
       <div className="centerContainer">
         <div className="titleContainer">
           <h1 className="titleText">WHITELISTAIO</h1>
-          <h3 className="secondaryText">Holders Mint</h3>
+          <h3 className="secondaryText">Holder Mint</h3>
         </div>
         <img src="wlgif.gif" alt="" className="wllogo" />
-        {/* <span className="mintPaused">HOLDER MINT PAUSED</span> */}
-        {CMTOTAL}
+        <span className="mintPaused">HOLDER MINT FINISHED</span>
+        {/* {CMTOTAL} */}
         <div className="mediasContainer">
           <div className="media">
             <a href="https://discord.gg/gcwRnFc7" className="media" target="_blank">

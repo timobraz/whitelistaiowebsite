@@ -6,7 +6,7 @@ const HomePage = (props: any) => {
       <div className="centerContainer">
         <div className="titleContainer">
           <h1 className="titleText">WHITELISTAIO</h1>
-          <h3 className="secondaryText">Whitelist Mint</h3>
+          <h3 className="secondaryText">Public Mint</h3>
         </div>
         <img src="wlgif.gif" alt="" className="wllogo" />
         {/* <span className="mintPaused">HOLDER MINT FINISHED</span> */}

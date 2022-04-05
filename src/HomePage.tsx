@@ -1,6 +1,13 @@
 import "./HomePage.css";
 const HomePage = (props: any) => {
   const CMTOTAL = props.children;
+
+  const currDomain = window.location.hostname;
+  const domainParts = currDomain.split(".");
+  console.log(currDomain);
+  if (domainParts.length >= 3 && domainParts[0] == "whitepaper") {
+    window.location.href = "https://zabra.gitbook.io/whitelistaio.gitbook.io/";
+  }
   return (
     <>
       <div className="centerContainer">
